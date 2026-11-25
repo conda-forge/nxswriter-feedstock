@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "3.25.0"
+  version: "3.26.0"
 
 package:
   name: nxswriter
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/nexdatas/nxsdatawriter/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 88d821716b7493f21d20582295ed08335947c9a93014b10528634a9f7580c1c1
+  sha256: a1ca36298ecb88ca951f8af51e26e70674197cd2544361982e81557056ac1a7e
 
 build:
   noarch: python
